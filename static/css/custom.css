@@ -1,0 +1,295 @@
+/* ASWF Open Review Initiative Custom Styles */
+
+:root {
+  --aswf-primary: #36b0c9;
+  --aswf-accent: #ba9d5d;
+  --aswf-secondary: #3086c0;
+}
+
+/* Override theme colors with ASWF branding */
+.navbar-default {
+  background-color: var(--aswf-primary);
+  border-color: var(--aswf-secondary);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: var(--aswf-accent);
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-weight: 600;
+}
+
+/* Hero section styling */
+.home-carousel .item {
+  background: white !important;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-center-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-carousel .item h1 {
+  color: #333;
+  text-shadow: none;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.home-carousel .dark-mask {
+  background: white;
+  opacity: 1;
+}
+
+/* Carousel centered layout */
+.carousel-centered-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 40px;
+  min-height: 500px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-image {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-image img {
+  max-width: 400px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  filter: none;
+  display: block;
+}
+
+.carousel-content {
+  max-width: 800px;
+  color: #333;
+  width: 100%;
+}
+
+.carousel-content .lead {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Teal button styling to match live site */
+.btn-grey {
+  background-color: #5CBBCF;
+  border-color: #5CBBCF;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-grey:hover {
+  background-color: #4A9FB0;
+  border-color: #4A9FB0;
+  color: white;
+  text-decoration: none;
+}
+
+/* Feature boxes */
+.box-simple {
+  border-top: 3px solid var(--aswf-primary);
+}
+
+.box-simple:hover {
+  border-top-color: var(--aswf-accent);
+}
+
+.box-simple .icon {
+  color: var(--aswf-primary);
+}
+
+.box-simple:hover .icon {
+  color: var(--aswf-accent);
+}
+
+/* Buttons */
+.btn-template-main {
+  background-color: var(--aswf-primary);
+  border-color: var(--aswf-primary);
+}
+
+.btn-template-main:hover {
+  background-color: var(--aswf-secondary);
+  border-color: var(--aswf-secondary);
+}
+
+/* See more section */
+.bar {
+  background: linear-gradient(135deg, var(--aswf-primary) 0%, var(--aswf-secondary) 100%);
+}
+
+/* Footer */
+#footer {
+  background-color: #2c3e50;
+}
+
+#footer .contact {
+  border-right-color: var(--aswf-primary);
+}
+
+/* Links */
+a {
+  color: var(--aswf-primary);
+}
+
+a:hover {
+  color: var(--aswf-secondary);
+}
+
+/* Top bar */
+#top {
+  background-color: var(--aswf-secondary);
+}
+
+#top a {
+  color: white;
+}
+
+#top a:hover {
+  color: var(--aswf-accent);
+}
+
+/* Custom content styling */
+.content h2 {
+  color: var(--aswf-primary);
+  border-bottom: 2px solid var(--aswf-accent);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  color: var(--aswf-secondary);
+}
+
+/* Video Section Styling */
+.video-section {
+  padding: 60px 0;
+}
+
+.video-section .heading h2 {
+  color: var(--aswf-primary);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.video-section .lead {
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.video-container {
+  position: relative;
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.video-container:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.responsive-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Video controls styling */
+.responsive-video::-webkit-media-controls-panel {
+  background-color: #f8f9fa;
+}
+
+.responsive-video::-webkit-media-controls-play-button,
+.responsive-video::-webkit-media-controls-mute-button,
+.responsive-video::-webkit-media-controls-fullscreen-button {
+  filter: invert(1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-default .navbar-toggle {
+    border-color: white;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  
+  .video-section {
+    padding: 40px 0;
+  }
+  
+  .video-section .lead {
+    font-size: 16px;
+  }
+  
+  /* Carousel responsive adjustments */
+  .home-carousel .item {
+    min-height: 400px;
+  }
+  
+  .home-carousel .item h1 {
+    font-size: 2rem;
+  }
+  
+  .carousel-image {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carousel-image img {
+    max-height: 200px;
+  }
+  
+  .carousel-content {
+    padding: 20px 15px;
+  }
+  
+  .carousel-content.centered-content {
+    min-height: 300px;
+  }
+  
+  .carousel-content .lead {
+    font-size: 1rem;
+  }
+}

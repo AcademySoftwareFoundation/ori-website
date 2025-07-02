@@ -1,0 +1,5 @@
+weight: 5
+name: "Synchronization protocol"
+icon: "fas fa-play-circle"
+url: "https://github.com/AcademySoftwareFoundation/ori-shared-platform"
+description: "Specification and a video demonstration of an Open Timeline IO based Synchronization protocol designed for realtime Synchronized review of media including annotations."

@@ -1,0 +1,14 @@
+{
+  "name": "aswf_ori",
+  "version": "1.0.0",
+  "description": "This is a Hugo-based recreation of the Academy Software Foundation's Open Review Initiative website, ported from the original WordPress version at https://www.aswf.io/openreviewinitiative/.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.4"
+  }
+}

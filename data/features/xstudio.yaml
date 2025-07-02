@@ -1,0 +1,5 @@
+weight: 2
+name: "X-studio"
+icon: "fas fa-desktop"
+url: "https://github.com/AcademySoftwareFoundation/xstudio"
+description: "Modern media review and collaboration platform designed for today's distributed workflows. Cloud-native architecture with real-time collaboration and advanced annotation tools."
