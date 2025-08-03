@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Review Initiative on Open Review Initiative - ASWF</title>
-    <link>https://www.aswf.io/openreviewinitiative/</link>
-    <description>Recent content in Open Review Initiative on Open Review Initiative - ASWF</description>
+    <title></title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://www.aswf.io/openreviewinitiative/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
