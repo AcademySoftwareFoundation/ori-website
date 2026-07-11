@@ -1,0 +1,5 @@
+weight: 6
+name: "Annotation Exchange Specification"
+icon: "fas fa-file-code"
+url: "https://lf-aswf.atlassian.net/wiki/spaces/PRWG/pages/11285866/ORI+Proposals"
+description: "Specification for a shared interoperable annotation format leveraging OTIO"

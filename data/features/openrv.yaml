@@ -1,0 +1,5 @@
+weight: 1
+name: "OpenRV"
+icon: "fas fa-desktop"
+url: "https://github.com/AcademySoftwareFoundation/OpenRV"
+description: "Professional-grade review and playback software for visual effects, animation, and post-production. Features high-performance media playback, advanced color management, and collaborative review tools."

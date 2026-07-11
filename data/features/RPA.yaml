@@ -1,0 +1,5 @@
+weight: 4
+name: "RPA"
+icon: "fas fa-play-circle"
+url: "https://github.com/AcademySoftwareFoundation/ori-shared-platform"
+description: "An Open Source API for the creation of universal plugins for media plaback devices."
