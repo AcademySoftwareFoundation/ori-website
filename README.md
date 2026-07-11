@@ -54,6 +54,9 @@ Pages. Pull requests run the build step only, as a validation check.
 
 ## License
 
+Site content is licensed under the
+[Creative Commons Attribution 4.0 International License](LICENSE) (CC-BY-4.0).
+
 Copyright © Open Review Initiative a Series of LF Projects, LLC. For website terms of use,
 trademark policy, and general project policies please see <https://lfprojects.org>.
 The vendored theme is MIT-licensed (see `themes/hugo-universal-theme/LICENSE`).
