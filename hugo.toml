@@ -116,7 +116,7 @@ pluralizelisttitles = false
 
 [params.features]
     enable = true
-    cols = 6
+    cols = 4
 
 [params.video]
     enable = true
