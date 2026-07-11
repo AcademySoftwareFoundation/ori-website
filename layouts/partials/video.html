@@ -1,0 +1,32 @@
+{{ if isset .Site.Params "video" }}
+{{ if .Site.Params.video.enable }}
+<section class="bar background-white video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ with .Site.Params.video.title }}
+                <div class="heading text-center">
+                    <h2>{{ . }}</h2>
+                </div>
+                {{ end }}
+                {{ with .Site.Params.video.subtitle }}
+                <p class="lead text-center">{{ . }}</p>
+                {{ end }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="video-container">
+                    {{ with .Site.Params.video.video_url }}
+                    <video controls class="responsive-video" poster="{{ $.Site.Params.video.poster_url | default "" }}">
+                        <source src="{{ . }}" type="video/mp4">
+                        <p>Your browser doesn't support HTML5 video. Here is a <a href="{{ . }}">link to the video</a> instead.</p>
+                    </video>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

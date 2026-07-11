@@ -1,0 +1,19 @@
+weight: 1
+title: ""
+
+description: >
+  <div class="column">
+    <div class="col-md-20">
+      <div class="carousel-centered-layout">
+        <div class="carousel-image">
+          <img src="img/ORI_Logo_LG.png" alt="Open Review Initiative" class="img-responsive" />
+        </div>
+        <div class="carousel-content">
+          <p class="lead">An umbrella project at the Academy Software Foundation working to build a unified open source toolset for playbook, review and approval of motion picture and related professional media.</p>
+          <a href="https://www.aswf.io/news/academy-software-foundations-new-open-review-initiative-forms-with-initial-code-contributions-from-autodesk-dneg-and-sony-pictures-imageworks/" class="btn btn-grey">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
