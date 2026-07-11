@@ -1,0 +1,5 @@
+weight: 7
+name: "ORI Plugin Registry"
+icon: "fas fa-plug"
+url: "https://academysoftwarefoundation.github.io/ori-shared-platform-website/"
+description: "A discovery portal for community created plugins designed to extend Open Review Initiative media playback applications."
